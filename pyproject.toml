@@ -1,0 +1,20 @@
+[project]
+name = "tmp-mitmproxy-article"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.38.28",
+    "eks-token>=0.3.0",
+    "httpx>=0.28.1",
+    "kubernetes>=32.0.1",
+    "langchain>=0.3.25",
+    "langchain-openai>=0.3.18",
+    "openai>=1.82.1",
+]
+
+[dependency-groups]
+dev = [
+    "mitmproxy>=12.1.1",
+]
